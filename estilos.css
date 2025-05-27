@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 header {
     background-color: pink;
-    height: 100px;
-    text-align: center;
-    font-size: 20px;
+    height: 200px;
+
 }
 
 main{
@@ -28,4 +30,60 @@ div{
     display: grid;
     min-height: 100dvh;
     grid-template-rows: auto 1fr auto;
+}
+
+#logo_letras_1{
+    width: 200px;
+    float: left;
+    display: flex;
+    margin-left: 250px;
+    justify-content: 300px;
+
+    border: 2px solid red;
+}
+
+#logo_letras_2{
+    width: 200px;
+    float: right;
+    display: flex;
+    margin-right: 250px;
+    justify-content: 300px;
+
+    border: 2px solid red;
+}
+
+#titulo{
+
+    text-align: center;
+    font-size: 40px;
+
+
+    border: 2px solid red;
+}
+
+nav {
+    border: 2px solid red;
+    width: 900px;
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 20px;
+        
+
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
 }
