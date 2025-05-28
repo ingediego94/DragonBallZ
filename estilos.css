@@ -8,14 +8,13 @@
 
 header {
     background-color: pink;
-    height: 200px;
+    height: 150px;
 
 }
 
 main{
     background-color: rgb(250, 250, 166);
-    height: 500px;
-    text-align: center;
+    height: 2000px;
     font-size: 20px;
 }
 
@@ -32,25 +31,19 @@ div{
     grid-template-rows: auto 1fr auto;
 }
 
-#logo_letras_1{
+
+
+#logo_letras{
     width: 200px;
     float: left;
     display: flex;
-    margin-left: 250px;
+    margin-left: 150px;
     justify-content: 300px;
 
     border: 2px solid red;
 }
 
-#logo_letras_2{
-    width: 200px;
-    float: right;
-    display: flex;
-    margin-right: 250px;
-    justify-content: 300px;
 
-    border: 2px solid red;
-}
 
 #titulo{
 
@@ -61,10 +54,14 @@ div{
     border: 2px solid red;
 }
 
+.navegacion{
+    justify-content: center;
+}
+
 nav {
     border: 2px solid red;
-    width: 900px;
     display: flex;
+    justify-content: center;
 }
 
 nav ul{
