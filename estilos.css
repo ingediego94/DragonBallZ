@@ -8,7 +8,7 @@
 
 header {
     background-color: pink;
-    height: 150px;
+    height: 125px;
 
 }
 
@@ -25,34 +25,36 @@ footer{
     font-size: 20px;
 }
 
-div{
+.cuerpo{
     display: grid;
     min-height: 100dvh;
     grid-template-rows: auto 1fr auto;
 }
 
+/*------------------------------------------------------------------*/
+
+#titulo{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid red;
+}
 
 
 #logo_letras{
-    width: 200px;
-    float: left;
-    display: flex;
-    margin-left: 150px;
-    justify-content: 300px;
-
-    border: 2px solid red;
+  
+  width: 150px;
+  border: 2px solid red;
+  display:flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: -50px
+    
 }
 
 
 
-#titulo{
 
-    text-align: center;
-    font-size: 40px;
-
-
-    border: 2px solid red;
-}
 
 .navegacion{
     justify-content: center;
@@ -84,3 +86,8 @@ nav a{
     padding: 10px;
     text-decoration: none;
 }
+
+h1,h2, h3, h4{
+    font-family: "Bebas Neue", sans-serif;
+}
+
